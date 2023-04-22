@@ -1,0 +1,114 @@
+focus_tree = {        
+      id = Nizhnevartovsk_focus
+      
+       country = {
+		factor = 1 #0 = для всех стран, 1 = для одной
+	
+	
+	default = yes
+	reset_on_civilwar = no
+}
+	default = no
+	
+	focus = {
+		id = History
+		icon = GFX_GENERIC_Partisans
+		cost = 5
+		x = 16
+		y = 0
+
+	}
+	
+	focus = {
+		id = Vibori
+		icon = GFX_RMD_First_election
+		cost = 4
+		prerequisite = { focus = History }
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = Muha
+		icon = GFX_SOV_red_nuclear_explosion
+		mutually_exclusive = { focus = Vostrikov }
+		mutually_exclusive = { focus = Romanov }
+		cost = 10
+		prerequisite = { focus = Vibori }
+		x = 8
+		y = 2
+		
+	}
+	
+	focus = {
+		id = Romanov
+		icon = GFX_RFP_the_russian_bear_awakans
+		mutually_exclusive = { focus = Muha }
+		mutually_exclusive = { focus = Vostrikov }
+		cost = 10
+		prerequisite = { focus = Vibori }
+		x = 24
+		y = 2
+		
+	}
+		focus = {
+		id = Vostrikov
+		icon = GFX_RUS_vonsiatsky
+		mutually_exclusive = { focus = Muha }
+		mutually_exclusive = { focus = Romanov }
+		cost = 10
+		prerequisite = { focus = Vibori }
+		x = 16
+		y = 2
+		## Демократично Фокус который будет после решения после Vibori 
+		}
+		
+		focus = {
+		id = David_2
+		icon = GFX_GENERIC_draw_borders
+		prerequisite = { focus = Vostrikov }
+		cost = 5
+		x = 16
+		y = 3
+		## {Вопрос границ} Решение пойти в мир или войну по решению (ДОБАВИТЬ РЕШЕНИЕ ДЛЯ ВЫБОРА ФОКУСА)
+		}
+		
+		focus = {
+		id = David_peace1
+		icon = GFX_GENERIC_Peace_Agreement
+		mutually_exclusive = { focus = David_war1 }
+		prerequisite = { focus = David_2 }
+		cost = 3
+		x = 15
+		y = 4
+		## {Мир всему голова} Фокус где ты выбрал мир с ХМАО
+		}
+		focus = {
+		id = David_peace2
+		icon = GFX_GRE_Peace_For_Past_Friends
+		prerequisite = { focus = David_peace1 }
+		cost = 10
+		x = 15
+		y = 5
+		##НАШИ НОВЫЕ СОСЕДИ Фокуc будет поднимать отношения с ХМАО и добавлять политку
+		}
+		
+		focus = {
+		id = David_war1
+		icon = GFX_SOV_Konev_Nuclear_Artillery_Designs
+		mutually_exclusive = { focus = David_peace1 }
+		prerequisite = { focus = David_2 }
+		cost = 3
+		x = 17
+		y = 4
+		## neмирный девид
+		}
+		focus = {
+		id = David_war2
+		icon = GFX_SYR_Iraq_War
+		prerequisite = { focus = David_war1 }
+		cost = 8
+		x = 17
+		y = 5
+		}
+}
