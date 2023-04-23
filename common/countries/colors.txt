@@ -883,3 +883,7 @@ HMA = {
 	color = rgb { 29 64 153 }
 	color_ui = rgb { 16 43 112 }
 }
+RUS = {
+	color = rgb { 200 200 200 }
+	color_ui = rgb { 180 180 180 }
+}

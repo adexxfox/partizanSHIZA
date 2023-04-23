@@ -15,6 +15,9 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = HMA
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = NJC
 		add_core_of = YAM
 	}
 

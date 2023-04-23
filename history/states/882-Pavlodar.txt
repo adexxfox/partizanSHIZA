@@ -16,6 +16,9 @@ state = {
 
 		}
 		add_core_of = HMA
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = NJC
 		victory_points = {
 			7708 1
 		}

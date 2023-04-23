@@ -1,3 +1,4 @@
 KOS	= "countries/Kosovo.txt"
 NJC = "countries/Nizhnevartovsk.txt"
 HMA = "countries/HMAO.txt"
+RUS = "countries/WRussia"

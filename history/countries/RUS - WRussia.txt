@@ -1,6 +1,6 @@
-capital = 570
+capital = 408
 
-oob = "HMA_1936" 
+oob = "RUS_1936" 
 
 set_research_slots = 3 #Количество ячеек исследования
 
@@ -28,23 +28,24 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality ##Рулевая партия
+	ruling_party = democratic ##Рулевая партия
 	last_election = "1936.1.1" ##Последние выборы (если есть)
 	election_frequency = 48 ##Через сколько проводят выборы
 	elections_allowed = no ##Есть ли выборы
 }
 
 set_popularities = {
-	democratic = 15  ##Демократия
-	neutrality = 60 ##Нейтралитет
-	communism = 20 ##Коммунизм
+	democratic = 60  ##Демократия
+	neutrality = 21 ##Нейтралитет
+	communism = 0 ##Коммунизм
 	fascism = 5 ##Фашизм
+	militarism = 14
 }
 
 create_country_leader = {
-    name = "Roman Kharisov"
+    name = "Drugoi Roman"
     desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
     expire = "1965.1.1"
     ideology = centrism
     traits = {
