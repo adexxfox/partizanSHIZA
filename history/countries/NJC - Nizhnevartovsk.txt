@@ -1,4 +1,4 @@
-capital = 14000
+capital = 13257
 
 oob = NJC_1936
 set_research_slots = 6 #Количество ячеек исследования

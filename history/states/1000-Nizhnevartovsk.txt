@@ -1,14 +1,14 @@
 
 state = { 
-	id = 1000 # Nizhnevartovsk
+	id = 909 # Nizhnevartovsk
 	manpower = 711412
-	name = "STATE_1000"
-	resources = { oil=130 }
+	name = "STATE_909"
+	resources = { oil=1 }
 	
-	state_category = megapolis
+	state_category = city
 
 	history = {
-		victory_points = { 14000 25 }
+		victory_points = { 13257 25 }
 		owner = NJC
 		buildings = {
 			infrastructure = 5
@@ -21,7 +21,7 @@ state = {
 		add_core_of = SOV
 	}
 
-	provinces = { 14000 }
+	provinces = {13257}
 
 	local_supplies = 0.0 
 }

@@ -1,21 +1,22 @@
 
 state = { 
 	id = 577 # Nizhnevartovsk. obl
-	manpower = 711412
+	manpower = 121343
 	name = "STATE_577"
-	resources = { oil=130 }
+	resources = { oil=160 }
 	
-	state_category = megapolis
+	state_category = town
 
 	history = {
 		victory_points = { 10533 5 }
 		owner = NJC
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 10
-			air_base = 7
+			industrial_complex = 11
+			arms_factory = 12
 		}
 		add_core_of = NJC
+		add_core_of = RUS
 		add_core_of = SOV
 	}
 
