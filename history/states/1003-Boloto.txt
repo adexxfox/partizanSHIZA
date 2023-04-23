@@ -1,0 +1,20 @@
+
+state = { 
+	id = 912 # Boloto
+	manpower = 168309
+	name = "STATE_912"
+	resources = { oil=24 }
+	
+	state_category = wasteland
+	impassable = yes
+	history = {
+		owner = NJC
+		add_core_of = NJC
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+	provinces = { 12514 1856 7837 10663 10561 7882 7781 }
+
+	local_supplies = 0.0 
+}
