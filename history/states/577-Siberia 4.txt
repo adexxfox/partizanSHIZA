@@ -1,6 +1,6 @@
 
 state = { 
-	id = 577 # Nizhnevartovsk
+	id = 577 # Nizhnevartovsk. obl
 	manpower = 711412
 	name = "STATE_577"
 	resources = { oil=130 }

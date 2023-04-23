@@ -13255,3 +13255,7 @@
 13254;242;234;234;land;true;forest;6
 13255;243;229;190;land;true;plains;1
 13256;226;59;117;land;true;plains;1
+
+14000;255;175;229;land;false;urban;6
+14001;255;200;229;land;false;urban;6
+14002;255;255;229;land;false;marsh;6
