@@ -248,6 +248,7 @@ ideologies = {
 			}
 			
 			democratic_militarism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -257,7 +258,7 @@ ideologies = {
 			"FACTION_NAME_MILITARISM_4"
 			"FACTION_NAME_MILITARISM_5"
 		}
-		color = { 169 42 42 }
+		color = { 1 115 16 }
 
 		war_impact_on_world_tension = 1.0
 		faction_impact_on_world_tension = 1.0

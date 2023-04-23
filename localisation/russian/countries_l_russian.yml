@@ -4145,10 +4145,14 @@
  NJC_democratic:0 "Нижневартовская Независимая Республика"
  NJC_democratic_DEF:0 "Республика Нижневартовск"
  NJC_democratic_ADJ:0 "ННР"
- NJC_militarism:0 "Партизания"
- NJC_militarism_DEF:0 "Партизания"
+ NJC_militarism:0 "Нижневартовская Независимая Республика"
+ NJC_militarism_DEF:0 "Партизанский Нижневартовск"
  NJC_militarism_ADJ:0 "Нижневартовск."
  
  HMA_neutrality:0 "ХМАО - Югра"
  HMA_neutrality_DEF:0 "ХМАО"
- HMA_neutrality_ADJ:0 "Югра"
+ HMA_neutrality_ADJ:0 "ХМАО"
+ 
+ RUS_democratic:0 "Российская республика"
+ RUS_democratic_DEF:0 "Белая Россия"
+ RUS_democratic_ADJ:0 "Российск."
