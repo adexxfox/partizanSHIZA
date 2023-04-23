@@ -4139,4 +4139,16 @@
  TTS_neutrality_ADJ:0 "Сицилийск."
  TTS_subject_ADJ:0 "Сицилийск."
  
-
+ NJC_communism:0 "Социалистическая Республика Нижневартовск"
+ NJC_communism_DEF:0 "Социалистическая Республика Нижневартовск"
+ NJC_communism_ADJ:0 "СРН"
+ NJC_democratic:0 "Нижневартовская Независимая Республика"
+ NJC_democratic_DEF:0 "Республика Нижневартовск"
+ NJC_democratic_ADJ:0 "ННР"
+ NJC_militarism:0 "Партизания"
+ NJC_militarism_DEF:0 "Партизания"
+ NJC_militarism_ADJ:0 "Нижневартовск."
+ 
+ HMA_neutrality:0 "ХМАО - Югра"
+ HMA_neutrality_DEF:0 "ХМАО"
+ HMA_neutrality_ADJ:0 "Югра"

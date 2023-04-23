@@ -1,4 +1,6 @@
 ﻿l_russian:
+ NJC_nvHistory:0 "Архивы"
+ NJC_nvHistory_desc:0 "Что случилось с этим миром?"
  WHILE_FOCUSING:0 "При выборе этого фокуса будут следующие эффекты:\n$EFF$"
  generic_focus:0 "Национальный фокус"
  army_effort:0 "Развитие армии"

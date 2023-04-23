@@ -1,0 +1,10 @@
+HMA = {
+	male = {
+		names = { Roman
+		}
+	}
+	surnames = {
+			Kharisov
+	}
+	callsigns = { Hippi Travoman }
+}
